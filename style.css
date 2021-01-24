@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-nav{
+    font-size: 16px;
+}
+h4{
+    color: blueviolet;
+    font-size: 2rem;
+}
+nav{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 2rem;
+    padding: 0 30px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+body{
+    background-color: #16697a;
+}
+.container{
+    margin: 50px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 50px;
+    height: 30vh;
+    background-color: teal;
+    color: white;
+    width: 500px;
+}
+#btn{
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+}
